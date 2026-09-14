@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330">
+  <rect width="900" height="330" rx="20" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="328" rx="19" fill="none" stroke="#30363d"/>
+
+  <text x="34" y="45" fill="#58a6ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.7">SELECTED WORK · PRIVATE</text>
+  <text x="34" y="88" fill="#f0f6fc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="800">TradeSync</text>
+  <text x="34" y="116" fill="#c9d1d9" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">Trading infrastructure for account connections, copying and execution.</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12" font-weight="650">
+    <rect x="34" y="145" width="136" height="30" rx="8" fill="#161b22" stroke="#30363d"/><text x="102" y="164" fill="#c9d1d9" text-anchor="middle">Multi-account</text>
+    <rect x="180" y="145" width="126" height="30" rx="8" fill="#161b22" stroke="#30363d"/><text x="243" y="164" fill="#c9d1d9" text-anchor="middle">Trade copying</text>
+    <rect x="34" y="185" width="136" height="30" rx="8" fill="#161b22" stroke="#30363d"/><text x="102" y="204" fill="#c9d1d9" text-anchor="middle">Order management</text>
+    <rect x="180" y="185" width="126" height="30" rx="8" fill="#161b22" stroke="#30363d"/><text x="243" y="204" fill="#c9d1d9" text-anchor="middle">Analytics</text>
+  </g>
+
+  <text x="34" y="256" fill="#6e7681" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.2">STACK</text>
+  <text x="34" y="281" fill="#c9d1d9" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13">React · TypeScript · Go · PostgreSQL · NATS · Docker</text>
+  <text x="34" y="305" fill="#8b949e" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="12">Focus: tenant isolation · idempotent execution · fail-safe trading flows</text>
+
+  <line x1="355" y1="34" x2="355" y2="296" stroke="#21262d"/>
+
+  <text x="390" y="47" fill="#6e7681" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1.4">SYSTEM FLOW</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" text-anchor="middle">
+    <rect x="390" y="78" width="132" height="58" rx="12" fill="#111820" stroke="#58a6ff"/>
+    <text x="456" y="101" fill="#79c0ff" font-size="12" font-weight="700">WEB APP</text>
+    <text x="456" y="120" fill="#8b949e" font-size="11">React / TypeScript</text>
+
+    <rect x="588" y="78" width="132" height="58" rx="12" fill="#111820" stroke="#00add8"/>
+    <text x="654" y="101" fill="#7ee7f2" font-size="12" font-weight="700">GO API</text>
+    <text x="654" y="120" fill="#8b949e" font-size="11">services + auth</text>
+
+    <rect x="588" y="192" width="132" height="58" rx="12" fill="#111820" stroke="#f0883e"/>
+    <text x="654" y="215" fill="#ffa657" font-size="12" font-weight="700">MT BRIDGE</text>
+    <text x="654" y="234" fill="#8b949e" font-size="11">MT4 / MT5</text>
+
+    <rect x="390" y="192" width="132" height="58" rx="12" fill="#111820" stroke="#4169e1"/>
+    <text x="456" y="215" fill="#a5b4fc" font-size="12" font-weight="700">POSTGRES</text>
+    <text x="456" y="234" fill="#8b949e" font-size="11">TimescaleDB + RLS</text>
+
+    <rect x="752" y="135" width="112" height="58" rx="12" fill="#111820" stroke="#27a9e1"/>
+    <text x="808" y="158" fill="#79c0ff" font-size="12" font-weight="700">NATS</text>
+    <text x="808" y="177" fill="#8b949e" font-size="11">JetStream</text>
+  </g>
+
+  <g stroke="#484f58" stroke-width="1.6" fill="none">
+    <path d="M522 107 H588"/>
+    <path d="M654 136 V192"/>
+    <path d="M588 221 H522"/>
+    <path d="M720 107 C768 107 768 135 752 150"/>
+    <path d="M752 178 C735 191 724 204 720 221"/>
+  </g>
+  <g fill="#8b949e">
+    <path d="M580 103 l8 4 -8 4z"/>
+    <path d="M650 184 l4 8 4-8z"/>
+    <path d="M530 217 l-8 4 8 4z"/>
+  </g>
+
+  <text x="627" y="292" fill="#6e7681" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="10.5" text-anchor="middle">web → API → events → terminal execution → state</text>
+</svg>
