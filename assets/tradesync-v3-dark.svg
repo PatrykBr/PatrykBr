@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="285" viewBox="0 0 1200 285" role="img" aria-labelledby="t d">
+<title id="t">TradeSync</title><desc id="d">Private trading infrastructure project with account connections, copying, execution and analytics.</desc>
+<rect width="1200" height="285" rx="20" fill="#0d1117" stroke="#30363d"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <text x="42" y="55" fill="#f0f6fc" font-size="31" font-weight="800">TradeSync</text>
+  <rect x="198" y="29" width="74" height="26" rx="13" fill="#161b22" stroke="#30363d"/>
+  <text x="235" y="47" text-anchor="middle" fill="#8b949e" font-size="12" font-weight="700">PRIVATE</text>
+  <text x="42" y="86" fill="#8b949e" font-size="16">Trading infrastructure for connecting accounts, copying trades and managing execution.</text>
+
+  <g font-size="14" font-weight="600">
+    <rect x="42" y="112" width="150" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="61" y="134" fill="#58a6ff">↔</text><text x="86" y="134" fill="#c9d1d9">Connections</text>
+    <rect x="202" y="112" width="126" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="221" y="134" fill="#58a6ff">⇄</text><text x="246" y="134" fill="#c9d1d9">Copying</text>
+    <rect x="338" y="112" width="132" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="357" y="134" fill="#58a6ff">⚡</text><text x="382" y="134" fill="#c9d1d9">Execution</text>
+    <rect x="480" y="112" width="124" height="34" rx="17" fill="#161b22" stroke="#30363d"/><text x="499" y="134" fill="#58a6ff">▥</text><text x="524" y="134" fill="#c9d1d9">Analytics</text>
+  </g>
+
+  <text x="42" y="190" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="2">STACK</text>
+  <text x="42" y="219" fill="#79c0ff" font-size="16">React · TypeScript · Go · PostgreSQL · NATS · Docker</text>
+  <text x="42" y="250" fill="#8b949e" font-size="13">multi-account trading infrastructure</text>
+
+  <line x1="652" y1="45" x2="652" y2="240" stroke="#21262d"/>
+  <text x="692" y="55" fill="#8b949e" font-size="13" font-weight="700" letter-spacing="2">SYSTEM FLOW</text>
+
+  <rect x="692" y="101" width="118" height="54" rx="14" fill="#161b22" stroke="#58a6ff"/>
+  <text x="751" y="124" text-anchor="middle" fill="#f0f6fc" font-size="17" font-weight="700">Web app</text>
+  <text x="751" y="143" text-anchor="middle" fill="#8b949e" font-size="12">React · TS</text>
+
+  <rect x="856" y="101" width="118" height="54" rx="14" fill="#161b22" stroke="#58a6ff"/>
+  <text x="915" y="124" text-anchor="middle" fill="#f0f6fc" font-size="17" font-weight="700">Go API</text>
+  <text x="915" y="143" text-anchor="middle" fill="#8b949e" font-size="12">core backend</text>
+
+  <rect x="1020" y="72" width="132" height="54" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text x="1086" y="95" text-anchor="middle" fill="#f0f6fc" font-size="17" font-weight="700">MT4 / MT5</text>
+  <text x="1086" y="114" text-anchor="middle" fill="#8b949e" font-size="12">execution</text>
+
+  <rect x="1020" y="158" width="132" height="54" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text x="1086" y="181" text-anchor="middle" fill="#f0f6fc" font-size="17" font-weight="700">PostgreSQL</text>
+  <text x="1086" y="200" text-anchor="middle" fill="#8b949e" font-size="12">data</text>
+
+  <rect x="856" y="190" width="118" height="44" rx="14" fill="#161b22" stroke="#30363d"/>
+  <text x="915" y="217" text-anchor="middle" fill="#f0f6fc" font-size="16" font-weight="700">NATS</text>
+
+  <line x1="810" y1="128" x2="856" y2="128" stroke="#58a6ff" stroke-width="2.5"/>
+  <circle cx="833" cy="128" r="4" fill="#58a6ff"/>
+  <line x1="974" y1="128" x2="1020" y2="99" stroke="#58a6ff" stroke-width="2.5"/>
+  <line x1="974" y1="128" x2="1020" y2="185" stroke="#58a6ff" stroke-width="2.5"/>
+  <line x1="915" y1="155" x2="915" y2="190" stroke="#58a6ff" stroke-width="2.5"/>
+</g>
+</svg>
