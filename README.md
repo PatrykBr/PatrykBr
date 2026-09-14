@@ -1,39 +1,75 @@
-# Hi, I'm Patryk <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
+  <img src="./assets/hero-dark.svg" width="100%" alt="Patryk Broncel, Computer Science at the University of Sheffield, seeking a 2026/27 industrial placement">
+</picture>
 
-🔷 Second-year Computer Science student at the University of Sheffield  
-🔷 Currently applying for an industrial placement year  
-🔷 Interested in automation, trading systems, and fullstack web development  
+<p align="center">
+  <a href="https://linkedin.com/in/patrykbr"><strong>LinkedIn</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="mailto:patbroncel@gmail.com"><strong>Email</strong></a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/PatrykBr/Tradingview-Optimiser"><strong>TradingView Optimiser ↗</strong></a>
+</p>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="34" height="34" alt="React" title="React">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="34" height="34" alt="Next.js" title="Next.js">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="34" height="34" alt="Go" title="Go">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" title="Docker">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="34" height="34" alt="Linux" title="Linux">
+</p>
 
-## 🛠️ Tech I Use
+<br>
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" title="Next.js" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" title="Lua" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" title="Ruby" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="VS Code" width="30"/>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/tradesync-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/tradesync-light.svg">
+  <img src="./assets/tradesync-dark.svg" width="100%" alt="TradeSync, a private trading infrastructure project built with React, TypeScript, Go, PostgreSQL, NATS and Docker">
+</picture>
 
----
+<br>
 
-## 📫 Contact
+### TradingView Optimiser · [public project ↗](https://github.com/PatrykBr/Tradingview-Optimiser)
 
-<div align="left">
-  <a href="mailto:patbroncel@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/patrykbr" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/PatrykBr" target="_blank">
-    <img src="https://img.shields.io/badge/github-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
+<table>
+<tr>
+<td width="68%" valign="middle">
+<a href="https://github.com/PatrykBr/Tradingview-Optimiser">
+<img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="100%" alt="TradingView Optimiser side panel">
+</a>
+</td>
+<td width="32%" valign="middle">
+
+**Browser extension + local optimisation backend**
+
+- Chrome / Firefox
+- React + TypeScript
+- FastAPI + WebSockets
+- Optuna Bayesian optimisation
+- Walk-forward + Monte Carlo
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="100%" alt="Parameter configuration"></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="100%" alt="Optimisation running"></td>
+<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="100%" alt="Optimisation results"></td>
+</tr>
+</table>
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/context-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/context-light.svg">
+  <img src="./assets/context-dark.svg" width="100%" alt="Experience at TradeAlgorithm and dissertation research on synthetic financial data">
+</picture>
