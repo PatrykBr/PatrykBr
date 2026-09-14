@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="t d">
+<title id="t">Profile highlights</title><desc id="d">Production systems ownership, backtesting automation impact, and Lighthouse performance.</desc>
+<rect width="1200" height="170" fill="#0d1117"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+  <line x1="400" y1="28" x2="400" y2="142" stroke="#30363d"/>
+  <line x1="800" y1="28" x2="800" y2="142" stroke="#30363d"/>
+
+  <circle cx="48" cy="53" r="8" fill="#3fb950"/>
+  <text x="70" y="60" fill="#f0f6fc" font-size="22" font-weight="700">Production systems</text>
+  <text x="48" y="95" fill="#c9d1d9" font-size="16">Owned live trading automation &amp; infrastructure</text>
+  <text x="48" y="124" fill="#8b949e" font-size="14">incidents · migration · reliability · MT4</text>
+
+  <text x="446" y="67" fill="#58a6ff" font-size="42" font-weight="800">~90%</text>
+  <text x="446" y="99" fill="#f0f6fc" font-size="19" font-weight="700">less manual backtesting</text>
+  <text x="446" y="126" fill="#8b949e" font-size="14">Bayesian optimisation · FastAPI · Optuna</text>
+
+  <text x="846" y="67" fill="#58a6ff" font-size="42" font-weight="800">95+</text>
+  <text x="846" y="99" fill="#f0f6fc" font-size="19" font-weight="700">Lighthouse score</text>
+  <text x="846" y="126" fill="#8b949e" font-size="14">Next.js · performance · accessibility</text>
+</g>
+</svg>
