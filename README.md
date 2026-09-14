@@ -9,67 +9,99 @@
   &nbsp;&nbsp;·&nbsp;&nbsp;
   <a href="mailto:patbroncel@gmail.com"><strong>Email</strong></a>
   &nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="https://github.com/PatrykBr/Tradingview-Optimiser"><strong>TradingView Optimiser ↗</strong></a>
+  <a href="https://github.com/PatrykBr/Tradingview-Optimiser"><strong>Featured project ↗</strong></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="34" height="34" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="34" height="34" alt="React" title="React">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="34" height="34" alt="Next.js" title="Next.js">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="34" height="34" alt="Go" title="Go">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="34" height="34" alt="Python" title="Python">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="34" height="34" alt="Docker" title="Docker">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="34" height="34" alt="Git" title="Git">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="34" height="34" alt="Linux" title="Linux">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="32" height="32" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="32" height="32" alt="React" title="React">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="32" height="32" alt="Next.js" title="Next.js">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="32" height="32" alt="Go" title="Go">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="32" height="32" alt="Python" title="Python">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="32" height="32" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="32" height="32" alt="Docker" title="Docker">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="32" height="32" alt="Git" title="Git">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="32" height="32" alt="Linux" title="Linux">
 </p>
 
-<br>
+## At a glance
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+**Experience**  
+Product & Technical Associate  
+TradeAlgorithm
+
+</td>
+<td width="33%" valign="top">
+
+**Research**  
+Synthetic data in finance  
+Third-year dissertation
+
+</td>
+<td width="33%" valign="top">
+
+**Looking for**  
+2026/27 industrial placement  
+Software engineering / fintech
+
+</td>
+</tr>
+</table>
+
+## Selected work
+
+<table width="100%">
+<tr>
+<td width="58%" valign="middle">
+
+### TradeSync
+
+**Trading infrastructure for connecting accounts, copying trades and managing execution.**
+
+`React` · `TypeScript` · `Go` · `PostgreSQL` · `NATS` · `Docker`
+
+**Built around:** multi-account connections · trade copying · order management · analytics
+
+<sub>Private project</sub>
+
+</td>
+<td width="42%" valign="middle">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/tradesync-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/tradesync-light.svg">
-  <img src="./assets/tradesync-dark.svg" width="100%" alt="TradeSync, a private trading infrastructure project built with React, TypeScript, Go, PostgreSQL, NATS and Docker">
+  <img src="./assets/tradesync-dark.svg" width="100%" alt="TradeSync system architecture">
 </picture>
 
-<br>
+</td>
+</tr>
 
-### TradingView Optimiser · [public project ↗](https://github.com/PatrykBr/Tradingview-Optimiser)
-
-<table>
 <tr>
-<td width="68%" valign="middle">
+<td width="42%" valign="middle">
+
 <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-<img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="100%" alt="TradingView Optimiser side panel">
+  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="100%" alt="TradingView Optimiser running on TradingView">
 </a>
+
 </td>
-<td width="32%" valign="middle">
+<td width="58%" valign="middle">
 
-**Browser extension + local optimisation backend**
+### [TradingView Optimiser ↗](https://github.com/PatrykBr/Tradingview-Optimiser)
 
-- Chrome / Firefox
-- React + TypeScript
-- FastAPI + WebSockets
-- Optuna Bayesian optimisation
-- Walk-forward + Monte Carlo
+**Browser extension that optimises TradingView strategy parameters with a local Python backend.**
+
+`React` · `TypeScript` · `FastAPI` · `WebSockets` · `Optuna`
+
+**Includes:** Bayesian optimisation · walk-forward analysis · Monte Carlo testing
 
 </td>
 </tr>
 </table>
 
-<table>
-<tr>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="100%" alt="Parameter configuration"></td>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="100%" alt="Optimisation running"></td>
-<td width="33%" align="center"><img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="100%" alt="Optimisation results"></td>
-</tr>
-</table>
+## Also built
 
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/context-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/context-light.svg">
-  <img src="./assets/context-dark.svg" width="100%" alt="Experience at TradeAlgorithm and dissertation research on synthetic financial data">
-</picture>
+[**cTrader Webhook**](https://github.com/PatrykBr/cTrader-Webhook) · [**Zed StyLua**](https://github.com/PatrykBr/zed-stylua) · [**Zed Selene**](https://github.com/PatrykBr/zed-selene) · [**ShortForm Creator**](https://github.com/PatrykBr/ShortForm-Creator)
