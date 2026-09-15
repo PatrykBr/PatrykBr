@@ -14,23 +14,25 @@ Full-stack software engineering · trading systems · applied ML/data
 
 ## Toolbox
 
-<p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/interests-v1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/interests-v1-light.svg">
+  <img src="./assets/interests-v1-dark.svg" width="100%" alt="What I like building: web products, trading systems, ML and data, and developer tooling">
+</picture>
+
+<p align="center">
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,go,python,fastapi,postgres,docker,linux,git&perline=11" alt="TypeScript, React, Next.js, Tailwind CSS, Go, Python, FastAPI, PostgreSQL, Docker, Linux and Git">
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/web-products-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="Web products">
-  <img src="https://img.shields.io/badge/trading-systems-131722?style=flat-square&logo=tradingview&logoColor=white" alt="Trading systems">
-  <img src="https://img.shields.io/badge/ML%20%2F%20AI-6e40c9?style=flat-square&logo=python&logoColor=white" alt="ML and AI">
-  <img src="https://img.shields.io/badge/automation-24292f?style=flat-square&logo=githubactions&logoColor=white" alt="Automation">
-  <img src="https://img.shields.io/badge/developer-tooling-24292f?style=flat-square&logo=github&logoColor=white" alt="Developer tooling">
-  <img src="https://img.shields.io/badge/cybersecurity-b42318?style=flat-square&logo=owasp&logoColor=white" alt="Cybersecurity">
+<p align="center">
+  <img src="https://img.shields.io/badge/curious%20about-synthetic%20data-6e40c9?style=flat-square" alt="Synthetic data">
+  <img src="https://img.shields.io/badge/curious%20about-model%20efficiency-8250df?style=flat-square" alt="Model efficiency">
+  <img src="https://img.shields.io/badge/curious%20about-cybersecurity-b42318?style=flat-square" alt="Cybersecurity">
+  <img src="https://img.shields.io/badge/curious%20about-performance%20%26%20reliability-238636?style=flat-square" alt="Performance and reliability">
 </p>
 
-**Currently exploring** · `synthetic financial data` · `Bayesian optimisation` · `performance & reliability`
-
 <details>
-<summary><strong>Also used</strong></summary>
+<summary><strong>More tools I've used</strong></summary>
 <br>
 
 `Java` · `C#` · `Ruby` · `R` · `Rails` · `Spring Boot` · `Flask` · `Node.js` · `GitHub Actions`
