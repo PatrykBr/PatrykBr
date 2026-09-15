@@ -7,23 +7,23 @@ Full-stack · trading systems · ML/data
 
 <a href="https://linkedin.com/in/patrykbr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:patbroncel@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
-<img src="https://img.shields.io/badge/2026%2F27-placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
+<img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
 <img src="https://img.shields.io/badge/degree-on%20track%20for%20First-1f6feb?style=flat-square" alt="On track for First Class Honours">
 
 <br>
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="30" height="30" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="30" height="30" alt="React" title="React">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="30" height="30" alt="Next.js" title="Next.js">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="30" height="30" alt="Go" title="Go">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30" height="30" alt="Python" title="Python">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="30" height="30" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="30" height="30" alt="Docker" title="Docker">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="30" height="30" alt="Git" title="Git">
-</p>
+[Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
 
-[Selected work](#selected-work) · [Experience](#experience) · [Now](#now) · [More projects](#more-projects)
+<p>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="28" height="28" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="28" height="28" alt="React" title="React">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="28" height="28" alt="Next.js" title="Next.js">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="28" height="28" alt="Go" title="Go">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="28" height="28" alt="Python" title="Python">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="28" height="28" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="28" height="28" alt="Docker" title="Docker">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="28" height="28" alt="Git" title="Git">
+</p>
 
 ## Selected work
 
@@ -33,15 +33,15 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="82%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="80%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/project%20impact-~90%25%20less%20manual%20backtesting-1f6feb?style=flat-square" alt="Project impact: around 90 percent less manual backtesting">
-  <img src="https://img.shields.io/badge/backend-FastAPI%20%2B%20WebSockets-24292f?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI and WebSockets">
-  <img src="https://img.shields.io/badge/search-Optuna%20Bayesian%20optimisation-24292f?style=flat-square" alt="Optuna Bayesian optimisation">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/backtesting-v1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/backtesting-v1-light.svg">
+  <img src="./assets/backtesting-v1-dark.svg" width="100%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
+</picture>
 
 <p align="center">
   <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=alert_status" alt="Quality Gate Status"></a>
@@ -49,16 +49,21 @@ Chrome extension + local Python backend for automated TradingView strategy optim
   <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=sqale_rating" alt="Maintainability Rating"></a>
 </p>
 
-<details>
-<summary><strong>More screenshots</strong></summary>
-<br>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="22%" alt="Parameter configuration">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="22%" alt="Optimisation in progress">
-  &nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="22%" alt="Optimisation results">
+  <img src="https://img.shields.io/badge/React-TypeScript-24292f?style=flat-square&logo=react&logoColor=61DAFB" alt="React and TypeScript">
+  <img src="https://img.shields.io/badge/FastAPI-WebSockets-24292f?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI and WebSockets">
+  <img src="https://img.shields.io/badge/Optuna-Bayesian%20optimisation-24292f?style=flat-square" alt="Optuna Bayesian optimisation">
+  <img src="https://img.shields.io/badge/analysis-walk--forward%20%2B%20Monte%20Carlo-24292f?style=flat-square" alt="Walk-forward and Monte Carlo analysis">
 </p>
+
+<details>
+<summary><strong>Screenshot gallery</strong></summary>
+<br>
+
+| Parameters | Running | Results |
+| :---: | :---: | :---: |
+| <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="210" alt="Parameter configuration"> | <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="210" alt="Optimisation in progress"> | <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="210" alt="Optimisation results"> |
+
 </details>
 
 ### TradeSync `private`
@@ -73,31 +78,31 @@ MT4/MT5 account connections · trade copying · order management · analytics
 </p>
 
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="26" height="26" alt="React" title="React">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="26" height="26" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="26" height="26" alt="Go" title="Go">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="26" height="26" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="26" height="26" alt="Docker" title="Docker">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="27" height="27" alt="React" title="React">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="27" height="27" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="27" height="27" alt="Go" title="Go">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="27" height="27" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="27" height="27" alt="Docker" title="Docker">
 </p>
 
-`Go` · `PostgreSQL` · `NATS` · `Docker` · MetaTrader bridges
+`Go API` · `PostgreSQL` · `NATS` · `Docker` · `MetaTrader bridges`
 
 ## Experience
 
-<img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="20" alt="TradingView"> **TradeAlgorithm** · Product & Technical Associate · Aug 2024–Jul 2025  
-<sub>Trading automation · infrastructure · production incidents · server migration</sub>
+<img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="22" alt="TradingView"> **TradeAlgorithm** · Product & Technical Associate · Aug 2024–Jul 2025  
+`production automation` · `infrastructure` · `incident response` · `server migration`
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="20" alt="Next.js"> **Bespoke Broncel Furniture** · Full-stack web development  
-<sub>Next.js 15 · gallery · contact flow · analytics · SEO · **95+ Lighthouse**</sub>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="22" alt="Next.js"> **Bespoke Broncel Furniture** · Full-stack web development  
+`Next.js 15` · `client project` · `analytics` · `SEO` · **95+ Lighthouse**
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="20" alt="Rails"> **AMRC Digital Thread Visualisation Tool** · university team project  
-<sub>Rails 8 · frontend · accessibility · authorisation · requirements</sub>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="22" alt="Rails"> **AMRC Digital Thread Visualisation Tool** · university team project  
+`Rails 8` · `frontend` · `accessibility` · `authorisation` · `requirements`
 
-## Now
+## Current
 
-<img src="https://img.shields.io/badge/education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Education: third year BSc Computer Science">
-<img src="https://img.shields.io/badge/dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Dissertation: synthetic financial data">
-<img src="https://img.shields.io/badge/placement-seeking%202026%2F27-238636?style=flat-square" alt="Placement: seeking 2026/27">
+<img src="https://img.shields.io/badge/education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year BSc Computer Science">
+<img src="https://img.shields.io/badge/dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
+<img src="https://img.shields.io/badge/placement-seeking%202026%2F27-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
 
 <details id="more-projects">
 <summary><strong>More projects</strong></summary>
