@@ -1,6 +1,6 @@
 # Patryk Broncel
 
-**Computer Science @ University of Sheffield** · Full-stack software engineering · trading systems · ML & data
+**Computer Science @ University of Sheffield** · full-stack · trading systems · ML/data
 
 <p>
   <img src="https://img.shields.io/badge/2026%2F27-Industrial%20Placement-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
@@ -32,29 +32,30 @@
   <img src="./assets/highlights-v3-dark.svg" width="100%" alt="Engineering highlights">
 </picture>
 
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/timeline-v1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/timeline-v1-light.svg">
+  <img src="./assets/timeline-v1-dark.svg" width="100%" alt="Project and experience timeline">
+</picture>
+
 ## Selected work
 
 ### TradeSync `private`
 
-Trading infrastructure for connecting trading accounts, copying trades, managing orders and analysing execution.
+Web app for connecting MT4/MT5 accounts, copying trades, managing orders and reviewing account and trade data.
 
 <p>
-  <img src="https://img.shields.io/badge/Accounts-MT4%20%2F%20MT5-24292f?style=flat-square" alt="MT4 and MT5 account connections">
-  <img src="https://img.shields.io/badge/Trade-Copying-24292f?style=flat-square" alt="Trade copying">
-  <img src="https://img.shields.io/badge/Orders-Execution-24292f?style=flat-square" alt="Order execution">
-  <img src="https://img.shields.io/badge/Analytics-Performance-24292f?style=flat-square" alt="Trading analytics">
+  <img src="https://img.shields.io/badge/Web-React%20%2B%20TypeScript-24292f?style=flat-square&logo=react&logoColor=61DAFB" alt="React and TypeScript frontend">
+  <img src="https://img.shields.io/badge/API-Go-24292f?style=flat-square&logo=go&logoColor=00ADD8" alt="Go backend">
+  <img src="https://img.shields.io/badge/Data-PostgreSQL%20%2B%20TimescaleDB-24292f?style=flat-square&logo=postgresql&logoColor=4169E1" alt="PostgreSQL and TimescaleDB">
+  <img src="https://img.shields.io/badge/Events-NATS-24292f?style=flat-square" alt="NATS messaging">
+  <img src="https://img.shields.io/badge/Bridge-MT4%20%2F%20MT5-24292f?style=flat-square" alt="MetaTrader bridge">
+  <img src="https://img.shields.io/badge/Runtime-Docker-24292f?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker">
 </p>
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="27" height="27" alt="React" title="React">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="27" height="27" alt="TypeScript" title="TypeScript">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="27" height="27" alt="Go" title="Go">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="27" height="27" alt="PostgreSQL" title="PostgreSQL">&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="27" height="27" alt="Docker" title="Docker">
-</p>
-
-**Go backend · PostgreSQL · NATS · Docker · MetaTrader bridges**  
-<sub>Private project. Built around multi-account connectivity, event-driven execution and trading analytics.</sub>
+<sub>Multi-account connectivity · trade copying · execution · analytics</sub>
 
 ---
 
@@ -76,24 +77,14 @@ Browser extension with a local Python backend for automated TradingView strategy
   <img src="https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-24292f?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions CI/CD">
 </p>
 
-## Experience & research
-
-**TradeAlgorithm · Product & Technical Associate**  
-Owned live trading automation and infrastructure, handled production incidents, and led a VPS-to-dedicated-server migration.
-
-**University of Sheffield · BSc Computer Science**  
-On track for First Class Honours. Most interested in web development, machine learning and data-driven computing.
-
-**Dissertation · Synthetic data in financial settings**  
-Exploring generated financial data for augmentation, privacy and stress testing.
-
 <details>
-<summary><strong>More projects & experience</strong></summary>
+<summary><strong>More experience & projects</strong></summary>
 <br>
 
-- **Bespoke Broncel Furniture** — Next.js 15 + TypeScript site with 95+ Lighthouse, gallery, contact flow, analytics and SEO.
+- **TradeAlgorithm** — Product & Technical Associate; live trading automation, infrastructure, incidents and a VPS-to-dedicated-server migration.
 - **AMRC Digital Thread Visualisation Tool** — Rails 8 project for an external client; frontend, authorisation-aware UI, accessibility and requirements engineering.
+- **Bespoke Broncel Furniture** — Next.js 15 + TypeScript site with 95+ Lighthouse, gallery, contact flow, analytics and SEO.
 - **Spring Boot + React application** — REST APIs and shared full-stack team development.
-- **cTrader Webhook / Zed extensions / ShortForm Creator** — smaller public tools and experiments across automation and developer tooling.
+- **Dissertation** — synthetic data in financial settings, focused on augmentation, privacy and stress testing.
 
 </details>
