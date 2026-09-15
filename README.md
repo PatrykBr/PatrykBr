@@ -37,16 +37,14 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="94%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="82%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="30%" alt="Parameter configuration">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="30%" alt="Optimisation in progress">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="30%" alt="Optimisation results">
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=alert_status" alt="Quality Gate Status"></a>
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=security_rating" alt="Security Rating"></a>
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=sqale_rating" alt="Maintainability Rating"></a>
 </p>
 
 <p align="center">
@@ -55,6 +53,18 @@ Chrome extension + local Python backend for automated TradingView strategy optim
   <img src="https://img.shields.io/badge/Optuna-Bayesian%20search-24292f?style=flat-square" alt="Optuna Bayesian search">
   <img src="https://img.shields.io/badge/analysis-walk--forward%20%2B%20Monte%20Carlo-24292f?style=flat-square" alt="Walk-forward and Monte Carlo analysis">
 </p>
+
+<details>
+<summary><strong>More screenshots</strong></summary>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/parameters.png" width="22%" alt="Parameter configuration">
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/running.png" width="22%" alt="Optimisation in progress">
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/results.png" width="22%" alt="Optimisation results">
+</p>
+</details>
 
 ### TradeSync `private`
 
