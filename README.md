@@ -23,11 +23,7 @@ Full-stack · trading systems · ML/data
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="30" height="30" alt="Git" title="Git">
 </p>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/snapshot-v1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/snapshot-v1-light.svg">
-  <img src="./assets/snapshot-v1-dark.svg" width="100%" alt="Profile snapshot">
-</picture>
+[Selected work](#selected-work) · [Experience](#experience) · [Now](#now) · [More projects](#more-projects)
 
 ## Selected work
 
@@ -42,16 +38,15 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 </p>
 
 <p align="center">
-  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=alert_status" alt="Quality Gate Status"></a>
-  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=security_rating" alt="Security Rating"></a>
-  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=sqale_rating" alt="Maintainability Rating"></a>
+  <img src="https://img.shields.io/badge/project%20impact-~90%25%20less%20manual%20backtesting-1f6feb?style=flat-square" alt="Project impact: around 90 percent less manual backtesting">
+  <img src="https://img.shields.io/badge/backend-FastAPI%20%2B%20WebSockets-24292f?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI and WebSockets">
+  <img src="https://img.shields.io/badge/search-Optuna%20Bayesian%20optimisation-24292f?style=flat-square" alt="Optuna Bayesian optimisation">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/~90%25-less%20manual%20backtesting-1f6feb?style=flat-square" alt="Around 90 percent less manual backtesting">
-  <img src="https://img.shields.io/badge/FastAPI-WebSockets-24292f?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI and WebSockets">
-  <img src="https://img.shields.io/badge/Optuna-Bayesian%20search-24292f?style=flat-square" alt="Optuna Bayesian search">
-  <img src="https://img.shields.io/badge/analysis-walk--forward%20%2B%20Monte%20Carlo-24292f?style=flat-square" alt="Walk-forward and Monte Carlo analysis">
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=alert_status" alt="Quality Gate Status"></a>
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=security_rating" alt="Security Rating"></a>
+  <a href="https://sonarcloud.io/summary/new_code?id=PatrykBr_Tradingview-Optimiser"><img src="https://sonarcloud.io/api/project_badges/measure?project=PatrykBr_Tradingview-Optimiser&metric=sqale_rating" alt="Maintainability Rating"></a>
 </p>
 
 <details>
@@ -93,18 +88,18 @@ MT4/MT5 account connections · trade copying · order management · analytics
 <sub>Trading automation · infrastructure · production incidents · server migration</sub>
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="20" alt="Next.js"> **Bespoke Broncel Furniture** · Full-stack web development  
-<sub>Next.js 15 · gallery · contact flow · analytics · SEO · 95+ Lighthouse</sub>
+<sub>Next.js 15 · gallery · contact flow · analytics · SEO · **95+ Lighthouse**</sub>
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="20" alt="Rails"> **AMRC Digital Thread Visualisation Tool** · university team project  
 <sub>Rails 8 · frontend · accessibility · authorisation · requirements</sub>
 
 ## Now
 
-<img src="https://img.shields.io/badge/3rd%20year-BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year Computer Science">
-<img src="https://img.shields.io/badge/dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
-<img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking 2026/27 placement">
+<img src="https://img.shields.io/badge/education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Education: third year BSc Computer Science">
+<img src="https://img.shields.io/badge/dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Dissertation: synthetic financial data">
+<img src="https://img.shields.io/badge/placement-seeking%202026%2F27-238636?style=flat-square" alt="Placement: seeking 2026/27">
 
-<details>
+<details id="more-projects">
 <summary><strong>More projects</strong></summary>
 <br>
 
