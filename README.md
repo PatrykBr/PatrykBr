@@ -115,16 +115,20 @@ MT4/MT5 account connections · trade copying · order management · analytics
 
 ### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="22" alt="Next.js"> [Bespoke Broncel Furniture ↗](https://github.com/PatrykBr/bbf-site) `public`
 
-Next.js client site · gallery · contact flow · analytics · SEO · **95+ Lighthouse**
+Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 <p align="center">
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="54%" alt="Bespoke Broncel Furniture website visual">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="68%" alt="Bespoke Broncel Furniture website visual">
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/logo.webp" width="16%" alt="Bespoke Broncel Furniture logo">
-  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Lighthouse-95%2B-238636?style=flat-square" alt="95+ Lighthouse">
+  <img src="https://img.shields.io/badge/Next.js-15-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js 15">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/PostHog-analytics-F54E00?style=flat-square" alt="PostHog analytics">
+  <img src="https://img.shields.io/badge/SEO-optimised-24292f?style=flat-square" alt="SEO optimised">
 </p>
 
 ## Experience
