@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="410" viewBox="0 0 1200 410" role="img" aria-labelledby="title desc">
+  <title id="title">Skill map</title>
+  <desc id="desc">A transit-map style overview of Patryk's web, backend, machine learning, trading and developer tooling skills.</desc>
+  <rect width="1200" height="410" rx="22" fill="#ffffff"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="34" y="38" fill="#57606a" font-size="13" font-weight="700" letter-spacing="2.4">SKILL MAP</text>
+    <text x="1166" y="38" text-anchor="end" fill="#8c959f" font-size="12">web · systems · ML/data · trading · tooling</text>
+
+    <rect x="32" y="65" width="70" height="24" rx="12" fill="#ddf4ff"/>
+    <text x="67" y="81" text-anchor="middle" fill="#0969da" font-size="12" font-weight="700">WEB</text>
+    <path d="M112 77 H1088" fill="none" stroke="#0969da" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#218bff" stroke-width="4">
+      <circle cx="190" cy="77" r="9"/><circle cx="365" cy="77" r="9"/><circle cx="548" cy="77" r="9"/><circle cx="735" cy="77" r="9"/><circle cx="930" cy="77" r="9"/>
+    </g>
+    <g fill="#1f2328" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="190" y="55">TypeScript</text><text x="365" y="55">React</text><text x="548" y="55">Next.js</text><text x="735" y="55">Tailwind</text><text x="930" y="55">UI / accessibility</text>
+    </g>
+
+    <rect x="32" y="135" width="90" height="24" rx="12" fill="#dafbe1"/>
+    <text x="77" y="151" text-anchor="middle" fill="#1a7f37" font-size="12" font-weight="700">BACKEND</text>
+    <path d="M132 147 H1088" fill="none" stroke="#1a7f37" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#2da44e" stroke-width="4">
+      <circle cx="215" cy="147" r="9"/><circle cx="390" cy="147" r="9"/><circle cx="570" cy="147" r="9"/><circle cx="760" cy="147" r="9"/><circle cx="950" cy="147" r="9"/>
+    </g>
+    <g fill="#1f2328" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="215" y="125">Go</text><text x="390" y="125">FastAPI</text><text x="570" y="125">PostgreSQL</text><text x="760" y="125">Docker</text><text x="950" y="125">Linux</text>
+    </g>
+
+    <rect x="32" y="205" width="80" height="24" rx="12" fill="#fbefff"/>
+    <text x="72" y="221" text-anchor="middle" fill="#8250df" font-size="12" font-weight="700">ML / DATA</text>
+    <path d="M122 217 H1088" fill="none" stroke="#8250df" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#a475f9" stroke-width="4">
+      <circle cx="210" cy="217" r="9"/><circle cx="398" cy="217" r="9"/><circle cx="600" cy="217" r="9"/><circle cx="820" cy="217" r="9"/><circle cx="1005" cy="217" r="9"/>
+    </g>
+    <g fill="#1f2328" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="210" y="195">Python</text><text x="398" y="195">Optuna</text><text x="600" y="195">Synthetic data</text><text x="820" y="195">Transformers</text><text x="1005" y="195">Analysis</text>
+    </g>
+
+    <rect x="32" y="275" width="84" height="24" rx="12" fill="#fff8c5"/>
+    <text x="74" y="291" text-anchor="middle" fill="#9a6700" font-size="12" font-weight="700">TRADING</text>
+    <path d="M126 287 H1088" fill="none" stroke="#bf8700" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#d4a72c" stroke-width="4">
+      <circle cx="220" cy="287" r="9"/><circle cx="420" cy="287" r="9"/><circle cx="620" cy="287" r="9"/><circle cx="825" cy="287" r="9"/><circle cx="1010" cy="287" r="9"/>
+    </g>
+    <g fill="#1f2328" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="220" y="265">TradingView</text><text x="420" y="265">MT4 / MT5</text><text x="620" y="265">Backtesting</text><text x="825" y="265">Automation</text><text x="1010" y="265">Execution</text>
+    </g>
+
+    <rect x="32" y="345" width="78" height="24" rx="12" fill="#fff1e5"/>
+    <text x="71" y="361" text-anchor="middle" fill="#bc4c00" font-size="12" font-weight="700">TOOLING</text>
+    <path d="M120 357 H1088" fill="none" stroke="#bc4c00" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#ffffff" stroke="#fb8f44" stroke-width="4">
+      <circle cx="215" cy="357" r="9"/><circle cx="405" cy="357" r="9"/><circle cx="600" cy="357" r="9"/><circle cx="805" cy="357" r="9"/><circle cx="1000" cy="357" r="9"/>
+    </g>
+    <g fill="#1f2328" font-size="14" font-weight="700" text-anchor="middle">
+      <text x="215" y="390">Git</text><text x="405" y="390">GitHub Actions</text><text x="600" y="390">CI/CD</text><text x="805" y="390">Browser extensions</text><text x="1000" y="390">Zed tooling</text>
+    </g>
+
+    <path d="M760 156 V348" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="5 7"/>
+    <circle cx="760" cy="147" r="13" fill="none" stroke="#57606a" stroke-width="2"/>
+    <circle cx="805" cy="357" r="13" fill="none" stroke="#57606a" stroke-width="2"/>
+    <text x="782" y="252" fill="#57606a" font-size="11" transform="rotate(-90 782 252)">production / tooling crossover</text>
+
+    <path d="M398 226 C430 245 500 263 620 278" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="5 7"/>
+    <circle cx="398" cy="217" r="13" fill="none" stroke="#57606a" stroke-width="2"/>
+    <circle cx="620" cy="287" r="13" fill="none" stroke="#57606a" stroke-width="2"/>
+    <text x="500" y="248" fill="#57606a" font-size="11">optimisation crossover</text>
+  </g>
+</svg>
