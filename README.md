@@ -10,16 +10,32 @@ Full-stack software engineering · trading systems · applied ML/data
 <img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
 <img src="https://img.shields.io/badge/degree-on%20track%20for%20First-1f6feb?style=flat-square" alt="On track for First Class Honours">
 
-[Stack](#stack--interests) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
+[Toolbox](#toolbox) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
 
-## Stack & interests
+## Toolbox
 
 <p>
   <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,go,python,fastapi,postgres,docker,linux,git&perline=11" alt="TypeScript, React, Next.js, Tailwind CSS, Go, Python, FastAPI, PostgreSQL, Docker, Linux and Git">
 </p>
 
-**Areas:** full-stack web · backend & infrastructure · ML & data · trading systems  
-**Interested in:** fintech · synthetic data · developer tooling · cybersecurity · performance & reliability
+<p>
+  <img src="https://img.shields.io/badge/web-products-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="Web products">
+  <img src="https://img.shields.io/badge/trading-systems-131722?style=flat-square&logo=tradingview&logoColor=white" alt="Trading systems">
+  <img src="https://img.shields.io/badge/ML%20%2F%20AI-6e40c9?style=flat-square&logo=python&logoColor=white" alt="ML and AI">
+  <img src="https://img.shields.io/badge/automation-24292f?style=flat-square&logo=githubactions&logoColor=white" alt="Automation">
+  <img src="https://img.shields.io/badge/developer-tooling-24292f?style=flat-square&logo=github&logoColor=white" alt="Developer tooling">
+  <img src="https://img.shields.io/badge/cybersecurity-b42318?style=flat-square&logo=owasp&logoColor=white" alt="Cybersecurity">
+</p>
+
+**Currently exploring** · `synthetic financial data` · `Bayesian optimisation` · `performance & reliability`
+
+<details>
+<summary><strong>Also used</strong></summary>
+<br>
+
+`Java` · `C#` · `Ruby` · `R` · `Rails` · `Spring Boot` · `Flask` · `Node.js` · `GitHub Actions`
+
+</details>
 
 ## Selected work
 
@@ -29,7 +45,7 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="72%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="68%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
@@ -44,7 +60,7 @@ Chrome extension + local Python backend for automated TradingView strategy optim
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/backtesting-v1-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/backtesting-v1-light.svg">
-    <img src="./assets/backtesting-v1-dark.svg" width="54%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
+    <img src="./assets/backtesting-v1-dark.svg" width="48%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
   </picture>
 </p>
 
@@ -69,10 +85,10 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 MT4/MT5 account connections · trade copying · order management · analytics
 
 <p>
-  <img src="https://img.shields.io/badge/01-connect-24292f?style=flat-square" alt="Account connections">
-  <img src="https://img.shields.io/badge/02-copy-24292f?style=flat-square" alt="Trade copying">
-  <img src="https://img.shields.io/badge/03-execute-24292f?style=flat-square" alt="Order execution">
-  <img src="https://img.shields.io/badge/04-analyse-24292f?style=flat-square" alt="Trading analytics">
+  <img src="https://img.shields.io/badge/connect-MT4%20%2F%20MT5-24292f?style=flat-square" alt="Connect MT4 and MT5 accounts">
+  <img src="https://img.shields.io/badge/%E2%86%92-copy%20trades-24292f?style=flat-square" alt="Copy trades">
+  <img src="https://img.shields.io/badge/%E2%86%92-execute-24292f?style=flat-square" alt="Execute orders">
+  <img src="https://img.shields.io/badge/%E2%86%92-analyse-24292f?style=flat-square" alt="Analyse trading activity">
 </p>
 
 <p>
@@ -91,7 +107,7 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 <p align="center">
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="68%" alt="Bespoke Broncel Furniture website visual">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="64%" alt="Bespoke Broncel Furniture website visual">
   </a>
 </p>
 
@@ -105,7 +121,7 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 ## Experience
 
-<img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="22" alt="TradingView"> **TradeAlgorithm** · Product & Technical Associate · Aug 2024–Jul 2025  
+<img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="22" alt="TradingView"> **TradeAlgorithm** · Product & Technical Associate · Aug 2024 to Jul 2025  
 `production automation` · `infrastructure` · `incident response` · `server migration`
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="22" alt="Rails"> **AMRC Digital Thread Visualisation Tool** · university team project  
@@ -118,7 +134,7 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 <img src="https://img.shields.io/badge/placement-seeking%202026%2F27-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
 
 <details id="more-projects">
-<summary><strong>More projects</strong></summary>
+<summary><strong>Other things I've built</strong></summary>
 <br>
 
 - [**cTrader Webhook**](https://github.com/PatrykBr/cTrader-Webhook) · trading automation tooling
