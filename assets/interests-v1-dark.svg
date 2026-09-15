@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">What I like building</title>
+  <desc id="desc">Four visual cards for web products, trading systems, machine learning and data, and developer tooling.</desc>
+  <rect width="1200" height="250" rx="20" fill="#0d1117"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(18 20)">
+      <rect width="276" height="210" rx="18" fill="#161b22" stroke="#30363d"/>
+      <circle cx="48" cy="48" r="24" fill="#1f6feb" opacity="0.18"/>
+      <rect x="34" y="35" width="28" height="22" rx="4" fill="none" stroke="#58a6ff" stroke-width="3"/>
+      <line x1="34" y1="42" x2="62" y2="42" stroke="#58a6ff" stroke-width="3"/>
+      <circle cx="40" cy="39" r="1.5" fill="#58a6ff"/><circle cx="45" cy="39" r="1.5" fill="#58a6ff"/>
+      <text x="28" y="96" fill="#f0f6fc" font-size="21" font-weight="700">Web products</text>
+      <text x="28" y="128" fill="#8b949e" font-size="14">React · Next.js · TypeScript</text>
+      <text x="28" y="153" fill="#8b949e" font-size="14">UI · accessibility · performance</text>
+      <rect x="28" y="176" width="86" height="22" rx="11" fill="#1f6feb" opacity="0.18"/>
+      <text x="71" y="191" text-anchor="middle" fill="#79c0ff" font-size="12" font-weight="700">FULL-STACK</text>
+    </g>
+
+    <g transform="translate(312 20)">
+      <rect width="276" height="210" rx="18" fill="#161b22" stroke="#30363d"/>
+      <circle cx="48" cy="48" r="24" fill="#238636" opacity="0.18"/>
+      <line x1="34" y1="58" x2="34" y2="39" stroke="#3fb950" stroke-width="3"/>
+      <rect x="29" y="44" width="10" height="9" rx="2" fill="#3fb950"/>
+      <line x1="48" y1="57" x2="48" y2="31" stroke="#3fb950" stroke-width="3"/>
+      <rect x="43" y="36" width="10" height="13" rx="2" fill="#3fb950"/>
+      <line x1="62" y1="59" x2="62" y2="35" stroke="#3fb950" stroke-width="3"/>
+      <rect x="57" y="43" width="10" height="10" rx="2" fill="#3fb950"/>
+      <text x="28" y="96" fill="#f0f6fc" font-size="21" font-weight="700">Trading systems</text>
+      <text x="28" y="128" fill="#8b949e" font-size="14">automation · execution · analytics</text>
+      <text x="28" y="153" fill="#8b949e" font-size="14">TradingView · MT4/MT5 · backtesting</text>
+      <rect x="28" y="176" width="76" height="22" rx="11" fill="#238636" opacity="0.18"/>
+      <text x="66" y="191" text-anchor="middle" fill="#56d364" font-size="12" font-weight="700">FINTECH</text>
+    </g>
+
+    <g transform="translate(606 20)">
+      <rect width="276" height="210" rx="18" fill="#161b22" stroke="#30363d"/>
+      <circle cx="48" cy="48" r="24" fill="#8957e5" opacity="0.18"/>
+      <circle cx="39" cy="50" r="5" fill="#a371f7"/>
+      <circle cx="57" cy="38" r="5" fill="#a371f7"/>
+      <circle cx="61" cy="58" r="5" fill="#a371f7"/>
+      <line x1="43" y1="47" x2="53" y2="41" stroke="#a371f7" stroke-width="2.5"/>
+      <line x1="44" y1="52" x2="56" y2="57" stroke="#a371f7" stroke-width="2.5"/>
+      <line x1="59" y1="43" x2="60" y2="53" stroke="#a371f7" stroke-width="2.5"/>
+      <text x="28" y="96" fill="#f0f6fc" font-size="21" font-weight="700">ML &amp; data</text>
+      <text x="28" y="128" fill="#8b949e" font-size="14">synthetic data · optimisation</text>
+      <text x="28" y="153" fill="#8b949e" font-size="14">transformers · modelling · analysis</text>
+      <rect x="28" y="176" width="98" height="22" rx="11" fill="#8957e5" opacity="0.18"/>
+      <text x="77" y="191" text-anchor="middle" fill="#d2a8ff" font-size="12" font-weight="700">EXPLORING</text>
+    </g>
+
+    <g transform="translate(900 20)">
+      <rect width="282" height="210" rx="18" fill="#161b22" stroke="#30363d"/>
+      <circle cx="48" cy="48" r="24" fill="#d29922" opacity="0.18"/>
+      <path d="M36 39h8l4 6-4 6h-8l-4-6z" fill="none" stroke="#e3b341" stroke-width="2.5"/>
+      <path d="M60 37l7 7-5 5-7-7z" fill="none" stroke="#e3b341" stroke-width="2.5"/>
+      <line x1="51" y1="48" x2="60" y2="57" stroke="#e3b341" stroke-width="2.5"/>
+      <text x="28" y="96" fill="#f0f6fc" font-size="21" font-weight="700">Developer tooling</text>
+      <text x="28" y="128" fill="#8b949e" font-size="14">browser extensions · workflows</text>
+      <text x="28" y="153" fill="#8b949e" font-size="14">CI/CD · automation · reliability</text>
+      <rect x="28" y="176" width="84" height="22" rx="11" fill="#d29922" opacity="0.18"/>
+      <text x="70" y="191" text-anchor="middle" fill="#e3b341" font-size="12" font-weight="700">TOOLING</text>
+    </g>
+  </g>
+</svg>
