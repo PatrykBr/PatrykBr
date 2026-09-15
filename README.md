@@ -1,4 +1,4 @@
-<img align="right" src="https://avatars.githubusercontent.com/u/119171694?v=4" width="96" alt="Patryk Broncel">
+<img align="right" src="https://avatars.githubusercontent.com/u/119171694?v=4" width="92" alt="Patryk Broncel">
 
 # Patryk Broncel
 
@@ -10,29 +10,22 @@ Full-stack software engineering · trading systems · applied ML/data
 <img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
 <img src="https://img.shields.io/badge/degree-on%20track%20for%20First-1f6feb?style=flat-square" alt="On track for First Class Honours">
 
-🗺️ [Skill map](#skill-map) · 🧪 [Work](#selected-work) · 🧱 [Experience](#experience) · 🔭 [Current](#current) · 🧰 [More projects](#more-projects)
+🚇 [Map](#skill-map) · 📈 [Optimiser](#-tradingview-strategy-optimiser--public) · 🔁 [TradeSync](#-tradesync-private) · 🪵 [Furniture](#-bespoke-broncel-furniture--public) · 🧱 [Experience](#experience)
 
 ## Skill map
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-map-v1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/skill-map-v1-light.svg">
-  <img src="./assets/skill-map-v1-dark.svg" width="100%" alt="Transit-style skill map covering web, backend, ML and data, trading systems and developer tooling">
-</picture>
+<img src="./assets/skill-map-v2-dark.svg" width="100%" alt="Transit-style map linking Patryk's web, backend, trading, ML/data and tooling skills to projects and current research">
+
+<sub>◎ Interchanges are projects that use several routes at once.</sub>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,go,python,fastapi,postgres,docker,linux,git&perline=11" alt="TypeScript, React, Next.js, Tailwind CSS, Go, Python, FastAPI, PostgreSQL, Docker, Linux and Git">
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/exploring-synthetic%20data-6e40c9?style=flat-square" alt="Exploring synthetic data">
-  <img src="https://img.shields.io/badge/exploring-model%20efficiency-8250df?style=flat-square" alt="Exploring model efficiency">
-  <img src="https://img.shields.io/badge/exploring-cybersecurity-b42318?style=flat-square" alt="Exploring cybersecurity">
-  <img src="https://img.shields.io/badge/exploring-performance%20%26%20reliability-238636?style=flat-square" alt="Exploring performance and reliability">
+  <img src="https://img.shields.io/badge/🎓%203rd%20year-BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year BSc Computer Science">
+  <img src="https://img.shields.io/badge/🧬%20dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
+  <img src="https://img.shields.io/badge/💼%202026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
 </p>
 
 <details>
-<summary><strong>More tools I've used</strong></summary>
+<summary><strong>🧰 More tools I've used</strong></summary>
 <br>
 
 `Java` · `C#` · `Ruby` · `R` · `Rails` · `Spring Boot` · `Flask` · `Node.js` · `GitHub Actions`
@@ -47,27 +40,27 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="66%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="64%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/impact-~90%25%20less%20manual%20backtesting-1f6feb?style=flat-square" alt="Around 90 percent less manual backtesting">
   <img src="https://img.shields.io/badge/backend-FastAPI%20%2B%20WebSockets-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI and WebSockets">
-  <img src="https://img.shields.io/badge/search-Optuna%20Bayesian%20optimisation-24292f?style=flat-square" alt="Optuna Bayesian optimisation">
-  <img src="https://img.shields.io/badge/analysis-walk--forward%20%2B%20Monte%20Carlo-24292f?style=flat-square" alt="Walk-forward and Monte Carlo analysis">
+  <img src="https://img.shields.io/badge/search-Optuna%20Bayesian%20optimisation-8957e5?style=flat-square" alt="Optuna Bayesian optimisation">
+  <img src="https://img.shields.io/badge/analysis-walk--forward%20%2B%20Monte%20Carlo-d29922?style=flat-square" alt="Walk-forward and Monte Carlo analysis">
 </p>
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/backtesting-v1-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/backtesting-v1-light.svg">
-    <img src="./assets/backtesting-v1-dark.svg" width="46%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
+    <img src="./assets/backtesting-v1-dark.svg" width="44%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
   </picture>
 </p>
 
 <details>
-<summary><strong>Open feature gallery + code quality</strong></summary>
+<summary><strong>🎛️ Open feature gallery + code quality</strong></summary>
 <br>
 
 | Parameters | Running | Results |
@@ -109,7 +102,7 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 <p align="center">
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="62%" alt="Bespoke Broncel Furniture website visual">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="60%" alt="Bespoke Broncel Furniture website visual">
   </a>
 </p>
 
@@ -128,12 +121,6 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 🏭 **AMRC Digital Thread Visualisation Tool** · university team project  
 `Rails 8` · `frontend` · `accessibility` · `authorisation` · `requirements`
-
-## Current
-
-<img src="https://img.shields.io/badge/🎓%20education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year BSc Computer Science">
-<img src="https://img.shields.io/badge/🧬%20dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
-<img src="https://img.shields.io/badge/💼%20placement-seeking%202026%2F27-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
 
 <details id="more-projects">
 <summary><strong>🧰 Other things I've built</strong></summary>
