@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390" role="img" aria-labelledby="title desc">
+  <title id="title">Patryk's skill and project map</title>
+  <desc id="desc">A colourful transit-style map linking web, backend, trading, machine learning and developer tooling skills to selected projects and current research.</desc>
+  <rect x="1" y="1" width="1198" height="388" rx="24" fill="#0d1117" stroke="#30363d"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="34" y="38" fill="#f0f6fc" font-size="18" font-weight="800" letter-spacing="1.5">SKILL MAP</text>
+    <text x="34" y="59" fill="#8b949e" font-size="12.5">skills → projects → current research</text>
+
+    <g font-size="11.5" font-weight="700">
+      <circle cx="767" cy="36" r="5" fill="#58a6ff"/><text x="779" y="40" fill="#8b949e">WEB</text>
+      <circle cx="833" cy="36" r="5" fill="#39c5cf"/><text x="845" y="40" fill="#8b949e">BACKEND</text>
+      <circle cx="929" cy="36" r="5" fill="#3fb950"/><text x="941" y="40" fill="#8b949e">TRADING</text>
+      <circle cx="1021" cy="36" r="5" fill="#a371f7"/><text x="1033" y="40" fill="#8b949e">ML / DATA</text>
+      <circle cx="1126" cy="36" r="5" fill="#e3b341"/><text x="1138" y="40" fill="#8b949e">TOOLS</text>
+    </g>
+
+    <rect x="724" y="72" width="442" height="284" rx="18" fill="#11161d" stroke="#21262d"/>
+    <text x="747" y="96" fill="#8b949e" font-size="11" font-weight="700" letter-spacing="1.8">PROJECT INTERCHANGES</text>
+
+    <!-- route lines -->
+    <line x1="90" y1="105" x2="705" y2="105" stroke="#58a6ff" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="162" x2="705" y2="162" stroke="#39c5cf" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="219" x2="705" y2="219" stroke="#3fb950" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="276" x2="705" y2="276" stroke="#a371f7" stroke-width="7" stroke-linecap="round"/>
+    <line x1="90" y1="333" x2="705" y2="333" stroke="#e3b341" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- route labels -->
+    <g font-size="11" font-weight="800" letter-spacing="1.3">
+      <text x="34" y="109" fill="#79c0ff">WEB</text>
+      <text x="20" y="166" fill="#56d4dd">BACKEND</text>
+      <text x="15" y="223" fill="#56d364">TRADING</text>
+      <text x="18" y="280" fill="#d2a8ff">ML / DATA</text>
+      <text x="24" y="337" fill="#e3b341">TOOLS</text>
+    </g>
+
+    <!-- web stops -->
+    <g font-size="12.5" fill="#c9d1d9">
+      <g><circle cx="145" cy="105" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><text x="126" y="85">TypeScript</text></g>
+      <g><circle cx="285" cy="105" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><text x="269" y="85">React</text></g>
+      <g><circle cx="425" cy="105" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><text x="403" y="85">Next.js</text></g>
+      <g><circle cx="565" cy="105" r="9" fill="#0d1117" stroke="#58a6ff" stroke-width="4"/><text x="540" y="85">Tailwind</text></g>
+
+      <!-- backend stops -->
+      <g><circle cx="145" cy="162" r="9" fill="#0d1117" stroke="#39c5cf" stroke-width="4"/><text x="136" y="146">Go</text></g>
+      <g><circle cx="285" cy="162" r="9" fill="#0d1117" stroke="#39c5cf" stroke-width="4"/><text x="263" y="146">FastAPI</text></g>
+      <g><circle cx="425" cy="162" r="9" fill="#0d1117" stroke="#39c5cf" stroke-width="4"/><text x="392" y="146">PostgreSQL</text></g>
+      <g><circle cx="565" cy="162" r="9" fill="#0d1117" stroke="#39c5cf" stroke-width="4"/><text x="545" y="146">Docker</text></g>
+
+      <!-- trading stops -->
+      <g><circle cx="145" cy="219" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="4"/><text x="112" y="203">TradingView</text></g>
+      <g><circle cx="285" cy="219" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="4"/><text x="260" y="203">MT4 / MT5</text></g>
+      <g><circle cx="425" cy="219" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="4"/><text x="394" y="203">Backtesting</text></g>
+      <g><circle cx="565" cy="219" r="9" fill="#0d1117" stroke="#3fb950" stroke-width="4"/><text x="535" y="203">Automation</text></g>
+
+      <!-- ml stops -->
+      <g><circle cx="145" cy="276" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="4"/><text x="126" y="260">Python</text></g>
+      <g><circle cx="285" cy="276" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="4"/><text x="265" y="260">Optuna</text></g>
+      <g><circle cx="425" cy="276" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="4"/><text x="389" y="260">Bayesian opt.</text></g>
+      <g><circle cx="565" cy="276" r="9" fill="#0d1117" stroke="#a371f7" stroke-width="4"/><text x="525" y="260">Synthetic data</text></g>
+
+      <!-- tooling stops -->
+      <g><circle cx="145" cy="333" r="9" fill="#0d1117" stroke="#e3b341" stroke-width="4"/><text x="102" y="317">GitHub Actions</text></g>
+      <g><circle cx="285" cy="333" r="9" fill="#0d1117" stroke="#e3b341" stroke-width="4"/><text x="270" y="317">Linux</text></g>
+      <g><circle cx="425" cy="333" r="9" fill="#0d1117" stroke="#e3b341" stroke-width="4"/><text x="413" y="317">Zed</text></g>
+      <g><circle cx="565" cy="333" r="9" fill="#0d1117" stroke="#e3b341" stroke-width="4"/><text x="522" y="317">Browser extensions</text></g>
+    </g>
+
+    <!-- connectors into project zone -->
+    <path d="M705 105 H760" fill="none" stroke="#58a6ff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M705 162 H795 V182" fill="none" stroke="#39c5cf" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M705 219 H795 V202" fill="none" stroke="#3fb950" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M705 276 H795 V222" fill="none" stroke="#a371f7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M705 333 H795 V242" fill="none" stroke="#e3b341" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- BBF -->
+    <rect x="760" y="76" width="176" height="58" rx="16" fill="#0d1117" stroke="#58a6ff" stroke-width="2"/>
+    <text x="780" y="99" fill="#79c0ff" font-size="11" font-weight="800" letter-spacing="1.2">PUBLIC</text>
+    <text x="780" y="120" fill="#f0f6fc" font-size="16" font-weight="700">Bespoke Furniture</text>
+
+    <!-- optimiser interchange -->
+    <circle cx="795" cy="212" r="23" fill="#0d1117" stroke="#f0f6fc" stroke-width="3"/>
+    <circle cx="795" cy="212" r="15" fill="#161b22"/>
+    <text x="795" y="217" text-anchor="middle" fill="#f0f6fc" font-size="14" font-weight="800">O</text>
+    <rect x="832" y="170" width="174" height="84" rx="16" fill="#0d1117" stroke="#30363d"/>
+    <text x="852" y="193" fill="#79c0ff" font-size="11" font-weight="800" letter-spacing="1.2">PUBLIC</text>
+    <text x="852" y="216" fill="#f0f6fc" font-size="17" font-weight="700">Strategy Optimiser</text>
+    <text x="852" y="238" fill="#8b949e" font-size="12.5">web · backend · trading · ML</text>
+
+    <!-- TradeSync interchange -->
+    <line x1="1006" y1="190" x2="1028" y2="190" stroke="#39c5cf" stroke-width="7"/>
+    <line x1="1006" y1="212" x2="1028" y2="212" stroke="#3fb950" stroke-width="7"/>
+    <line x1="1006" y1="234" x2="1028" y2="234" stroke="#e3b341" stroke-width="7"/>
+    <circle cx="1038" cy="212" r="23" fill="#0d1117" stroke="#f0f6fc" stroke-width="3"/>
+    <circle cx="1038" cy="212" r="15" fill="#161b22"/>
+    <text x="1038" y="217" text-anchor="middle" fill="#f0f6fc" font-size="14" font-weight="800">T</text>
+    <rect x="1072" y="174" width="80" height="76" rx="16" fill="#0d1117" stroke="#30363d"/>
+    <text x="1086" y="196" fill="#8b949e" font-size="10.5" font-weight="800">PRIVATE</text>
+    <text x="1086" y="218" fill="#f0f6fc" font-size="15" font-weight="700">TradeSync</text>
+    <text x="1086" y="238" fill="#8b949e" font-size="11">Go · MT</text>
+
+    <!-- dissertation -->
+    <path d="M705 276 H760" stroke="#a371f7" stroke-width="7" stroke-linecap="round"/>
+    <rect x="760" y="278" width="392" height="58" rx="16" fill="#0d1117" stroke="#a371f7" stroke-width="2"/>
+    <text x="780" y="301" fill="#d2a8ff" font-size="11" font-weight="800" letter-spacing="1.2">CURRENT RESEARCH</text>
+    <text x="780" y="323" fill="#f0f6fc" font-size="16" font-weight="700">Synthetic data in financial settings</text>
+
+    <!-- little easter-egg style station -->
+    <circle cx="665" cy="333" r="8" fill="#0d1117" stroke="#e3b341" stroke-width="3"/>
+    <text x="635" y="359" fill="#8b949e" font-size="10.5">reliability</text>
+  </g>
+</svg>
