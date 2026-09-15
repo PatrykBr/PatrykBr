@@ -12,14 +12,42 @@ Full-stack software engineering · trading systems · ML/data
 
 <br>
 
-<p>
-  <img src="https://img.shields.io/badge/Web%20products-React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="Web products with React">
-  <img src="https://img.shields.io/badge/Trading%20systems-TradingView-131722?style=flat-square&logo=tradingview&logoColor=white" alt="Trading systems">
-  <img src="https://img.shields.io/badge/ML%20%26%20data-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Machine learning and data with Python">
-  <img src="https://img.shields.io/badge/Production-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Production systems with Docker">
-</p>
+[Skills](#skills--interests) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
 
-[Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
+## Skills & interests
+
+**Web** &nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="27" height="27" alt="TypeScript" title="TypeScript">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="27" height="27" alt="React" title="React">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="27" height="27" alt="Next.js" title="Next.js">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="27" height="27" alt="Tailwind CSS" title="Tailwind CSS">
+
+**Backend & infra** &nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="27" height="27" alt="Go" title="Go">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="27" height="27" alt="Python" title="Python">&nbsp;
+<img src="https://cdn.simpleicons.org/fastapi/009688" width="27" height="27" alt="FastAPI" title="FastAPI">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="27" height="27" alt="PostgreSQL" title="PostgreSQL">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="27" height="27" alt="Docker" title="Docker">&nbsp;
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="27" height="27" alt="Linux" title="Linux">
+
+**ML & data** &nbsp;
+<img src="https://img.shields.io/badge/Bayesian%20optimisation-24292f?style=flat-square" alt="Bayesian optimisation">
+<img src="https://img.shields.io/badge/synthetic%20data-6e40c9?style=flat-square" alt="Synthetic data">
+<img src="https://img.shields.io/badge/transformers-24292f?style=flat-square" alt="Transformers">
+<img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
+
+**Trading systems** &nbsp;
+<img src="https://img.shields.io/badge/TradingView-131722?style=flat-square&logo=tradingview&logoColor=white" alt="TradingView">
+<img src="https://img.shields.io/badge/MT4%20%2F%20MT5-24292f?style=flat-square" alt="MT4 and MT5">
+<img src="https://img.shields.io/badge/backtesting-24292f?style=flat-square" alt="Backtesting">
+<img src="https://img.shields.io/badge/automation-24292f?style=flat-square" alt="Automation">
+
+**Interested in** &nbsp;
+<img src="https://img.shields.io/badge/fintech-0b6bcb?style=flat-square" alt="Fintech">
+<img src="https://img.shields.io/badge/ML%20%2F%20AI%20systems-7c3aed?style=flat-square" alt="ML and AI systems">
+<img src="https://img.shields.io/badge/developer%20tooling-24292f?style=flat-square&logo=github&logoColor=white" alt="Developer tooling">
+<img src="https://img.shields.io/badge/cybersecurity-b42318?style=flat-square" alt="Cybersecurity">
+<img src="https://img.shields.io/badge/performance%20%26%20reliability-238636?style=flat-square" alt="Performance and reliability">
 
 ## Selected work
 
@@ -29,7 +57,7 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="76%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="72%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
@@ -44,7 +72,7 @@ Chrome extension + local Python backend for automated TradingView strategy optim
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/backtesting-v1-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/backtesting-v1-light.svg">
-    <img src="./assets/backtesting-v1-dark.svg" width="64%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
+    <img src="./assets/backtesting-v1-dark.svg" width="54%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
   </picture>
 </p>
 
@@ -91,11 +119,11 @@ Next.js client site · gallery · contact flow · analytics · SEO · **95+ Ligh
 
 <p align="center">
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="58%" alt="Bespoke Broncel Furniture website visual">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="54%" alt="Bespoke Broncel Furniture website visual">
   </a>
   &nbsp;&nbsp;
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/logo.webp" width="18%" alt="Bespoke Broncel Furniture logo">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/logo.webp" width="16%" alt="Bespoke Broncel Furniture logo">
   </a>
 </p>
 
