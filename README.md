@@ -1,53 +1,25 @@
-<img align="right" src="https://avatars.githubusercontent.com/u/119171694?v=4" width="104" alt="Patryk Broncel">
+<img align="right" src="https://avatars.githubusercontent.com/u/119171694?v=4" width="96" alt="Patryk Broncel">
 
 # Patryk Broncel
 
-Computer Science @ **University of Sheffield**  
-Full-stack software engineering · trading systems · ML/data
+**BSc Computer Science · University of Sheffield**  
+Full-stack software engineering · trading systems · applied ML/data
 
 <a href="https://linkedin.com/in/patrykbr"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:patbroncel@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
 <img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
 <img src="https://img.shields.io/badge/degree-on%20track%20for%20First-1f6feb?style=flat-square" alt="On track for First Class Honours">
 
-<br>
+[Stack](#stack--interests) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
 
-[Skills](#skills--interests) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
+## Stack & interests
 
-## Skills & interests
+<p>
+  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,go,python,fastapi,postgres,docker,linux,git&perline=11" alt="TypeScript, React, Next.js, Tailwind CSS, Go, Python, FastAPI, PostgreSQL, Docker, Linux and Git">
+</p>
 
-**Web** &nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="27" height="27" alt="TypeScript" title="TypeScript">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="27" height="27" alt="React" title="React">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="27" height="27" alt="Next.js" title="Next.js">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="27" height="27" alt="Tailwind CSS" title="Tailwind CSS">
-
-**Backend & infra** &nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" width="27" height="27" alt="Go" title="Go">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="27" height="27" alt="Python" title="Python">&nbsp;
-<img src="https://cdn.simpleicons.org/fastapi/009688" width="27" height="27" alt="FastAPI" title="FastAPI">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="27" height="27" alt="PostgreSQL" title="PostgreSQL">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="27" height="27" alt="Docker" title="Docker">&nbsp;
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="27" height="27" alt="Linux" title="Linux">
-
-**ML & data** &nbsp;
-<img src="https://img.shields.io/badge/Bayesian%20optimisation-24292f?style=flat-square" alt="Bayesian optimisation">
-<img src="https://img.shields.io/badge/synthetic%20data-6e40c9?style=flat-square" alt="Synthetic data">
-<img src="https://img.shields.io/badge/transformers-24292f?style=flat-square" alt="Transformers">
-<img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-
-**Trading systems** &nbsp;
-<img src="https://img.shields.io/badge/TradingView-131722?style=flat-square&logo=tradingview&logoColor=white" alt="TradingView">
-<img src="https://img.shields.io/badge/MT4%20%2F%20MT5-24292f?style=flat-square" alt="MT4 and MT5">
-<img src="https://img.shields.io/badge/backtesting-24292f?style=flat-square" alt="Backtesting">
-<img src="https://img.shields.io/badge/automation-24292f?style=flat-square" alt="Automation">
-
-**Interested in** &nbsp;
-<img src="https://img.shields.io/badge/fintech-0b6bcb?style=flat-square" alt="Fintech">
-<img src="https://img.shields.io/badge/ML%20%2F%20AI%20systems-7c3aed?style=flat-square" alt="ML and AI systems">
-<img src="https://img.shields.io/badge/developer%20tooling-24292f?style=flat-square&logo=github&logoColor=white" alt="Developer tooling">
-<img src="https://img.shields.io/badge/cybersecurity-b42318?style=flat-square" alt="Cybersecurity">
-<img src="https://img.shields.io/badge/performance%20%26%20reliability-238636?style=flat-square" alt="Performance and reliability">
+**Areas:** full-stack web · backend & infrastructure · ML & data · trading systems  
+**Interested in:** fintech · synthetic data · developer tooling · cybersecurity · performance & reliability
 
 ## Selected work
 
