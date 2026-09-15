@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="title desc">
+  <title id="title">Profile snapshot</title>
+  <desc id="desc">2026/27 industrial placement, approximately 90 percent less manual backtesting, 95 plus Lighthouse score, third-year BSc Computer Science.</desc>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <line x1="300" y1="28" x2="300" y2="142" stroke="#30363d"/>
+    <line x1="600" y1="28" x2="600" y2="142" stroke="#30363d"/>
+    <line x1="900" y1="28" x2="900" y2="142" stroke="#30363d"/>
+
+    <text x="150" y="78" text-anchor="middle" fill="#f0f6fc" font-size="34" font-weight="700">2026/27</text>
+    <text x="150" y="108" text-anchor="middle" fill="#8b949e" font-size="14">industrial placement</text>
+
+    <text x="450" y="78" text-anchor="middle" fill="#58a6ff" font-size="34" font-weight="700">~90%</text>
+    <text x="450" y="108" text-anchor="middle" fill="#8b949e" font-size="14">less manual backtesting</text>
+
+    <text x="750" y="78" text-anchor="middle" fill="#58a6ff" font-size="34" font-weight="700">95+</text>
+    <text x="750" y="108" text-anchor="middle" fill="#8b949e" font-size="14">Lighthouse</text>
+
+    <text x="1050" y="78" text-anchor="middle" fill="#f0f6fc" font-size="34" font-weight="700">3rd year</text>
+    <text x="1050" y="108" text-anchor="middle" fill="#8b949e" font-size="14">BSc Computer Science</text>
+  </g>
+</svg>
