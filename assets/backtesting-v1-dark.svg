@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="170" viewBox="0 0 960 170" role="img" aria-labelledby="title desc">
+  <title id="title">Manual backtesting time</title>
+  <desc id="desc">Relative manual backtesting time before and with the TradingView Strategy Optimiser, showing approximately 90 percent less manual time.</desc>
+  <rect width="960" height="170" rx="18" fill="#0d1117"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="28" y="34" fill="#f0f6fc" font-size="16" font-weight="700">Manual backtesting time</text>
+    <text x="932" y="34" text-anchor="end" fill="#8b949e" font-size="12">relative</text>
+
+    <text x="28" y="78" fill="#c9d1d9" font-size="13">Before</text>
+    <rect x="132" y="63" width="740" height="20" rx="10" fill="#21262d"/>
+    <rect x="132" y="63" width="740" height="20" rx="10" fill="#484f58"/>
+    <text x="888" y="78" fill="#8b949e" font-size="12">100%</text>
+
+    <text x="28" y="122" fill="#c9d1d9" font-size="13">With optimiser</text>
+    <rect x="132" y="107" width="740" height="20" rx="10" fill="#21262d"/>
+    <rect x="132" y="107" width="74" height="20" rx="10" fill="#58a6ff"/>
+    <text x="218" y="122" fill="#58a6ff" font-size="12" font-weight="700">~10%</text>
+
+    <text x="932" y="150" text-anchor="end" fill="#58a6ff" font-size="14" font-weight="700">~90% less manual backtesting</text>
+  </g>
+</svg>
