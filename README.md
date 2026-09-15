@@ -10,14 +10,14 @@ Full-stack software engineering · trading systems · applied ML/data
 <img src="https://img.shields.io/badge/2026%2F27-seeking%20placement-238636?style=flat-square" alt="Seeking a 2026/27 industrial placement">
 <img src="https://img.shields.io/badge/degree-on%20track%20for%20First-1f6feb?style=flat-square" alt="On track for First Class Honours">
 
-[Toolbox](#toolbox) · [Work](#selected-work) · [Experience](#experience) · [Current](#current) · [More projects](#more-projects)
+🗺️ [Skill map](#skill-map) · 🧪 [Work](#selected-work) · 🧱 [Experience](#experience) · 🔭 [Current](#current) · 🧰 [More projects](#more-projects)
 
-## Toolbox
+## Skill map
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/interests-v1-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/interests-v1-light.svg">
-  <img src="./assets/interests-v1-dark.svg" width="100%" alt="What I like building: web products, trading systems, ML and data, and developer tooling">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-map-v1-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/skill-map-v1-light.svg">
+  <img src="./assets/skill-map-v1-dark.svg" width="100%" alt="Transit-style skill map covering web, backend, ML and data, trading systems and developer tooling">
 </picture>
 
 <p align="center">
@@ -25,10 +25,10 @@ Full-stack software engineering · trading systems · applied ML/data
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/curious%20about-synthetic%20data-6e40c9?style=flat-square" alt="Synthetic data">
-  <img src="https://img.shields.io/badge/curious%20about-model%20efficiency-8250df?style=flat-square" alt="Model efficiency">
-  <img src="https://img.shields.io/badge/curious%20about-cybersecurity-b42318?style=flat-square" alt="Cybersecurity">
-  <img src="https://img.shields.io/badge/curious%20about-performance%20%26%20reliability-238636?style=flat-square" alt="Performance and reliability">
+  <img src="https://img.shields.io/badge/exploring-synthetic%20data-6e40c9?style=flat-square" alt="Exploring synthetic data">
+  <img src="https://img.shields.io/badge/exploring-model%20efficiency-8250df?style=flat-square" alt="Exploring model efficiency">
+  <img src="https://img.shields.io/badge/exploring-cybersecurity-b42318?style=flat-square" alt="Exploring cybersecurity">
+  <img src="https://img.shields.io/badge/exploring-performance%20%26%20reliability-238636?style=flat-square" alt="Exploring performance and reliability">
 </p>
 
 <details>
@@ -41,13 +41,13 @@ Full-stack software engineering · trading systems · applied ML/data
 
 ## Selected work
 
-### <img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="22" alt="TradingView"> [TradingView Strategy Optimiser ↗](https://github.com/PatrykBr/Tradingview-Optimiser) `public`
+### 📈 [TradingView Strategy Optimiser ↗](https://github.com/PatrykBr/Tradingview-Optimiser) `public`
 
 Chrome extension + local Python backend for automated TradingView strategy optimisation.
 
 <p align="center">
   <a href="https://github.com/PatrykBr/Tradingview-Optimiser">
-    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="68%" alt="TradingView Strategy Optimiser running inside TradingView">
+    <img src="https://raw.githubusercontent.com/PatrykBr/Tradingview-Optimiser/main/docs/images/overview.png" width="66%" alt="TradingView Strategy Optimiser running inside TradingView">
   </a>
 </p>
 
@@ -62,12 +62,12 @@ Chrome extension + local Python backend for automated TradingView strategy optim
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/backtesting-v1-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/backtesting-v1-light.svg">
-    <img src="./assets/backtesting-v1-dark.svg" width="48%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
+    <img src="./assets/backtesting-v1-dark.svg" width="46%" alt="Manual backtesting time reduced by around 90 percent with the optimiser">
   </picture>
 </p>
 
 <details>
-<summary><strong>Feature gallery + code quality</strong></summary>
+<summary><strong>Open feature gallery + code quality</strong></summary>
 <br>
 
 | Parameters | Running | Results |
@@ -82,15 +82,15 @@ Chrome extension + local Python backend for automated TradingView strategy optim
 
 </details>
 
-### TradeSync `private`
+### 🔁 TradeSync `private`
 
 MT4/MT5 account connections · trade copying · order management · analytics
 
 <p>
-  <img src="https://img.shields.io/badge/connect-MT4%20%2F%20MT5-24292f?style=flat-square" alt="Connect MT4 and MT5 accounts">
-  <img src="https://img.shields.io/badge/%E2%86%92-copy%20trades-24292f?style=flat-square" alt="Copy trades">
-  <img src="https://img.shields.io/badge/%E2%86%92-execute-24292f?style=flat-square" alt="Execute orders">
-  <img src="https://img.shields.io/badge/%E2%86%92-analyse-24292f?style=flat-square" alt="Analyse trading activity">
+  <img src="https://img.shields.io/badge/01-CONNECT-MT4%20%2F%20MT5-1f6feb?style=flat-square" alt="Connect MT4 and MT5 accounts">
+  <img src="https://img.shields.io/badge/02-COPY-trades-8957e5?style=flat-square" alt="Copy trades">
+  <img src="https://img.shields.io/badge/03-EXECUTE-orders-d29922?style=flat-square" alt="Execute orders">
+  <img src="https://img.shields.io/badge/04-ANALYSE-data-238636?style=flat-square" alt="Analyse trading activity">
 </p>
 
 <p>
@@ -103,13 +103,13 @@ MT4/MT5 account connections · trade copying · order management · analytics
 
 `Go API` · `PostgreSQL` · `NATS` · `Docker` · `MetaTrader bridges`
 
-### <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="22" alt="Next.js"> [Bespoke Broncel Furniture ↗](https://github.com/PatrykBr/bbf-site) `public`
+### 🪵 [Bespoke Broncel Furniture ↗](https://github.com/PatrykBr/bbf-site) `public`
 
 Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 <p align="center">
   <a href="https://github.com/PatrykBr/bbf-site">
-    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="64%" alt="Bespoke Broncel Furniture website visual">
+    <img src="https://raw.githubusercontent.com/PatrykBr/bbf-site/main/public/hero-bg.webp" width="62%" alt="Bespoke Broncel Furniture website visual">
   </a>
 </p>
 
@@ -123,20 +123,20 @@ Website for a bespoke furniture business, built with Next.js 15 and TypeScript.
 
 ## Experience
 
-<img src="https://cdn.simpleicons.org/tradingview/58A6FF" width="22" alt="TradingView"> **TradeAlgorithm** · Product & Technical Associate · Aug 2024 to Jul 2025  
+📊 **TradeAlgorithm** · Product & Technical Associate · Aug 2024 to Jul 2025  
 `production automation` · `infrastructure` · `incident response` · `server migration`
 
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/rails/rails-original-wordmark.svg" width="22" alt="Rails"> **AMRC Digital Thread Visualisation Tool** · university team project  
+🏭 **AMRC Digital Thread Visualisation Tool** · university team project  
 `Rails 8` · `frontend` · `accessibility` · `authorisation` · `requirements`
 
 ## Current
 
-<img src="https://img.shields.io/badge/education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year BSc Computer Science">
-<img src="https://img.shields.io/badge/dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
-<img src="https://img.shields.io/badge/placement-seeking%202026%2F27-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
+<img src="https://img.shields.io/badge/🎓%20education-3rd%20year%20BSc%20Computer%20Science-24292f?style=flat-square" alt="Third year BSc Computer Science">
+<img src="https://img.shields.io/badge/🧬%20dissertation-synthetic%20financial%20data-6e40c9?style=flat-square" alt="Synthetic financial data dissertation">
+<img src="https://img.shields.io/badge/💼%20placement-seeking%202026%2F27-238636?style=flat-square" alt="Seeking 2026/27 industrial placement">
 
 <details id="more-projects">
-<summary><strong>Other things I've built</strong></summary>
+<summary><strong>🧰 Other things I've built</strong></summary>
 <br>
 
 - [**cTrader Webhook**](https://github.com/PatrykBr/cTrader-Webhook) · trading automation tooling
