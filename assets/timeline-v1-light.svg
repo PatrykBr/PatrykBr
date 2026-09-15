@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230" role="img" aria-labelledby="title desc">
+  <title id="title">Project and experience timeline</title>
+  <desc id="desc">Timeline from 2024 to 2026 covering TradeAlgorithm, a Next.js client site, TradingView Optimiser, the AMRC project and dissertation.</desc>
+  <rect x="1" y="1" width="1198" height="228" rx="22" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="38" y="40" fill="#57606a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">TIMELINE</text>
+  <line x1="92" y1="118" x2="1108" y2="118" stroke="#d0d7de" stroke-width="3"/>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g><circle cx="160" cy="118" r="8" fill="#0969da"/><text x="160" y="78" text-anchor="middle" fill="#1f2328" font-size="16" font-weight="700">2024</text><text x="160" y="151" text-anchor="middle" fill="#1f2328" font-size="15" font-weight="700">TradeAlgorithm</text><text x="160" y="173" text-anchor="middle" fill="#57606a" font-size="12.5">production trading systems</text></g>
+    <g><circle cx="390" cy="118" r="8" fill="#218bff"/><text x="390" y="78" text-anchor="middle" fill="#1f2328" font-size="16" font-weight="700">2025</text><text x="390" y="151" text-anchor="middle" fill="#1f2328" font-size="15" font-weight="700">Next.js client site</text><text x="390" y="173" text-anchor="middle" fill="#57606a" font-size="12.5">95+ Lighthouse</text></g>
+    <g><circle cx="620" cy="118" r="8" fill="#218bff"/><text x="620" y="78" text-anchor="middle" fill="#1f2328" font-size="16" font-weight="700">2025</text><text x="620" y="151" text-anchor="middle" fill="#1f2328" font-size="15" font-weight="700">TradingView Optimiser</text><text x="620" y="173" text-anchor="middle" fill="#57606a" font-size="12.5">browser extension + Python backend</text></g>
+    <g><circle cx="850" cy="118" r="8" fill="#8250df"/><text x="850" y="78" text-anchor="middle" fill="#1f2328" font-size="16" font-weight="700">2026</text><text x="850" y="151" text-anchor="middle" fill="#1f2328" font-size="15" font-weight="700">AMRC project</text><text x="850" y="173" text-anchor="middle" fill="#57606a" font-size="12.5">Rails 8 · external client</text></g>
+    <g><circle cx="1080" cy="118" r="8" fill="#1a7f37"/><text x="1080" y="78" text-anchor="middle" fill="#1f2328" font-size="16" font-weight="700">2026/27</text><text x="1080" y="151" text-anchor="middle" fill="#1f2328" font-size="15" font-weight="700">Dissertation + placement</text><text x="1080" y="173" text-anchor="middle" fill="#57606a" font-size="12.5">synthetic financial data</text></g>
+  </g>
+</svg>
