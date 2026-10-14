@@ -1,39 +1,24 @@
-# Hi, I'm Patryk <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">
+# Patryk Broncel
 
-🔷 Second-year Computer Science student at the University of Sheffield  
-🔷 Currently applying for an industrial placement year  
-🔷 Interested in automation, trading systems, and fullstack web development  
+Third-year **MComp Computer Science with an Industrial Placement Year** student at the **University of Sheffield**. Expected graduation: **2029**; seeking a **2027/28 software engineering industrial placement**.
 
----
+I enjoy building practical full-stack applications, automation tools and financial software, with particular interests in **Python, frontend engineering and reliable backend systems**.
 
-## 🛠️ Tech I Use
+## Selected work
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" title="TypeScript" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="React" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" title="Next.js" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg" title="Lua" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" title="Java" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" title="Ruby" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" title="Git" width="30"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" title="VS Code" width="30"/>
-</div>
+- **[TradingView Optuna Optimiser](https://github.com/PatrykBr/TradeCopy-3)**: a Chrome/Firefox extension with a React/TypeScript interface and local Python/FastAPI backend. Uses Optuna to automate parameter exploration and supports resumable studies, walk-forward analysis and Monte Carlo testing.
+- **[TradeSync](https://github.com/PatrykBr/TradeSync-7)** *(in development)*: a multi-tenant trading infrastructure project using Go, React, PostgreSQL and NATS. Focuses on account connectivity, event processing, isolation and reliability. Not presented as a production-ready trading service.
+- **[Bespoke Broncel Furniture](https://github.com/PatrykBr/bbf-site)**: a responsive business website using Next.js, TypeScript, analytics, a project gallery and a validated contact form. [Live website](https://www.broncelfurniture.com).
+- **[Reset](https://github.com/PatrykBr/habit-tracker-5)**: a mobile-first habit-tracking PWA using TanStack Start, MongoDB and Better Auth.
 
----
+## Technologies
 
-## 📫 Contact
+**Languages:** Python, TypeScript, JavaScript, Java, SQL, Go, Ruby  
+**Frontend:** React, Next.js, Tailwind CSS  
+**Backend/data:** FastAPI, Node.js, PostgreSQL, MongoDB  
+**Development:** Git, Docker, Linux, GitHub Actions, automated testing
 
-<div align="left">
-  <a href="mailto:patbroncel@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/email-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://linkedin.com/in/patrykbr" target="_blank">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/PatrykBr" target="_blank">
-    <img src="https://img.shields.io/badge/github-%2312100E.svg?&style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
-</div>
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/patrykbr/)
+- [Email](mailto:patbroncel@gmail.com)
