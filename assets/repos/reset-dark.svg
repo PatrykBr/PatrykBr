@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="148" viewBox="0 0 350 148" role="img" aria-label="Reset, private project">
+<rect x=".5" y=".5" width="349" height="147" rx="6" fill="#0d1117" stroke="#3d444d"/>
+<g transform="translate(17 19)" fill="none" stroke="#9198a1" stroke-width="1.2"><rect x=".5" y="6" width="12" height="9" rx="1.5"/><path d="M3 6V3.5a3.5 3.5 0 0 1 7 0V6"/></g>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif">
+<text x="37" y="31" fill="#f0f6fc" font-size="14" font-weight="600">Reset</text><text x="332" y="30" fill="#9198a1" font-size="10" text-anchor="end">Private</text>
+<text x="17" y="63" fill="#9198a1" font-size="12">A habit-quitting PWA with streaks,</text><text x="17" y="82" fill="#9198a1" font-size="12">reset history and milestones.</text>
+<text x="17" y="123" fill="#9198a1" font-size="10.5">TanStack Start · MongoDB · Better Auth</text>
+</g></svg>
