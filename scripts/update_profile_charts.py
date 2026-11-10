@@ -86,10 +86,12 @@ class Calendar(HTMLParser):
         return output
 
 
-def gh_json(endpoint, paginate=False):
+def gh_json(endpoint, paginate=False, query=None):
     command = ["gh", "api", "--hostname", "github.com", endpoint]
     if paginate:
         command += ["--paginate", "--slurp"]
+    if query is not None:
+        command += ["-f", "query=" + query]
     try:
         result = subprocess.run(command, capture_output=True, text=True, encoding="utf-8", timeout=120)
     except (OSError, subprocess.TimeoutExpired):
@@ -97,15 +99,53 @@ def gh_json(endpoint, paginate=False):
     if result.returncode:
         # gh errors can contain private repository names. Keep them out of logs.
         raise RuntimeError("GitHub CLI request failed; check authentication and repository permissions.")
-    return json.loads(result.stdout)
+    data = json.loads(result.stdout)
+    if any(page.get("errors") for page in (data if isinstance(data, list) else [data])
+           if isinstance(page, dict)):
+        raise RuntimeError("GitHub returned incomplete contribution data.")
+    return data
+
+
+def contributed_repositories(login):
+    """Owned projects plus verified code contributions, including assignment forks."""
+    if gh_json("user")["login"].casefold() != login.casefold():
+        raise ValueError("GitHub CLI must be signed in as the profile owner.")
+    pages = gh_json("user/repos?affiliation=owner,collaborator,organization_member&per_page=100", paginate=True)
+    accessible = {repo["full_name"].casefold(): repo for page in pages for repo in page}
+    selected = {key: repo["full_name"] for key, repo in accessible.items()
+                if repo["owner"]["login"].casefold() == login.casefold() and not repo["fork"]}
+    query = '''query($endCursor:String) {
+      viewer { repositoriesContributedTo(first:100, after:$endCursor,
+        includeUserRepositories:false, contributionTypes:[COMMIT,PULL_REQUEST]) {
+        nodes { nameWithOwner }
+        pageInfo { hasNextPage endCursor }
+      } }
+    }'''
+    for page in gh_json("graphql", paginate=True, query=query):
+        for repo in page["data"]["viewer"]["repositoriesContributedTo"]["nodes"]:
+            name = repo["nameWithOwner"]
+            selected[name.casefold()] = name
+
+    # The contribution index omits assignment forks. Check accessible candidates
+    # for authored commits, without treating access alone as a contribution.
+    def authored(repo):
+        name = repo["full_name"]
+        endpoint = "repos/" + "/".join(quote(part) for part in name.split("/"))
+        if gh_json(endpoint + f"/commits?author={quote(login)}&per_page=1"):
+            return name
+        return None
+
+    remaining = [repo for key, repo in accessible.items() if key not in selected and repo.get("size", 1) > 0]
+    with ThreadPoolExecutor(max_workers=4) as pool:
+        for name in pool.map(authored, remaining):
+            if name:
+                selected[name.casefold()] = name
+    return sorted(selected.values(), key=str.casefold)
 
 
 def language_data(login, include_private):
     if include_private:
-        if gh_json("user")["login"].casefold() != login.casefold():
-            raise ValueError("GitHub CLI must be signed in as the profile owner.")
-        pages = gh_json("user/repos?affiliation=owner&per_page=100", paginate=True)
-        candidates = [repo for page in pages for repo in page]
+        repositories = contributed_repositories(login)
     else:
         candidates = []
         page = 1
@@ -115,9 +155,9 @@ def language_data(login, include_private):
             if len(batch) < 100:
                 break
             page += 1
-    repositories = [repo["full_name"] for repo in candidates
-                    if repo["owner"]["login"].casefold() == login.casefold()
-                    and not repo["fork"] and (include_private or not repo["private"])]
+        repositories = [repo["full_name"] for repo in candidates
+                        if repo["owner"]["login"].casefold() == login.casefold()
+                        and not repo["fork"] and not repo["private"]]
 
     def languages(name):
         owner, name = name.split("/", 1)
@@ -135,6 +175,7 @@ def language_data(login, include_private):
         raise ValueError("No language data returned")
     # Publish only aggregates; repository identifiers remain in memory.
     return {"repository_count": len(repositories),
+            "repository_scope": "owned_and_contributed" if include_private else "owned",
             "language_scope": "public_and_private" if include_private else "public",
             "languages_updated": datetime.now(timezone.utc).date().isoformat(),
             "languages": dict(totals.most_common())}
@@ -154,6 +195,7 @@ def collect(login, include_private=False, preserve_languages=False):
             raise ValueError("Cached language data belongs to another profile.")
         languages = {key: previous[key] for key in
                      ("repository_count", "language_scope", "languages_updated", "languages")}
+        languages["repository_scope"] = previous.get("repository_scope", "owned")
     else:
         languages = language_data(login, include_private)
     return {"login": login, "updated": today.isoformat(), **languages, "contributions": contributions}
@@ -199,7 +241,8 @@ def language_chart(data, theme):
         body += label(332, y, f"{size / total:.1%}", p["muted"], anchor="end")
     count = data["repository_count"]
     scope = "public + private" if data["language_scope"] == "public_and_private" else "public"
-    return frame("Code by language", f"{count} owned non-fork repos · {scope}",
+    coverage = "owned + contributed" if data.get("repository_scope") == "owned_and_contributed" else "owned non-fork repos"
+    return frame("Code by language", f"{count} {coverage} · {scope}",
                  body, theme, data["languages_updated"])
 
 
@@ -259,7 +302,7 @@ def main():
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for name, content in assets.items():
         (OUTPUT / name).write_text(content, encoding="utf-8")
-    print(f'Updated charts from {data["repository_count"]} owned non-fork repositories '
+    print(f'Updated charts from {data["repository_count"]} repositories '
           f'({data["language_scope"]}); '
           f'{sum(day["count"] for day in data["contributions"]):,} profile contributions in the displayed period.')
 

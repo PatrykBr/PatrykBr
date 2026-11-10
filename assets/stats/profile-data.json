@@ -1,18 +1,20 @@
 {
   "login": "PatrykBr",
   "updated": "2026-11-10",
-  "repository_count": 41,
+  "repository_count": 48,
+  "repository_scope": "owned_and_contributed",
   "language_scope": "public_and_private",
-  "languages_updated": "2026-10-25",
+  "languages_updated": "2026-11-10",
   "languages": {
-    "TypeScript": 6711981,
+    "TypeScript": 6815839,
     "Go": 3320948,
     "PLpgSQL": 1870706,
-    "Shell": 903213,
-    "JavaScript": 545071,
-    "Python": 337140,
+    "Shell": 903228,
+    "JavaScript": 897100,
+    "Python": 528191,
+    "Java": 419838,
+    "CSS": 325411,
     "Luau": 311324,
-    "CSS": 296223,
     "MQL5": 274845,
     "C#": 242400,
     "Lua": 197521,
@@ -20,14 +22,17 @@
     "ShaderLab": 80492,
     "SCSS": 66150,
     "Rust": 24170,
+    "HTML": 17983,
     "Dockerfile": 17626,
     "HLSL": 13994,
-    "HTML": 11745,
     "C++": 11656,
     "PowerShell": 6388,
     "CMake": 3085,
     "Makefile": 2864,
-    "Nix": 106
+    "Just": 1036,
+    "Nix": 106,
+    "Batchfile": 15,
+    "Procfile": 14
   },
   "contributions": [
     {
@@ -427,8 +432,8 @@
     },
     {
       "date": "2026-11-10",
-      "count": 0,
-      "level": 0
+      "count": 1,
+      "level": 1
     }
   ]
 }

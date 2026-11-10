@@ -6,9 +6,19 @@ Refresh public and private language data using your existing authenticated GitHu
 python scripts/update_profile_charts.py --include-private
 ```
 
-The signed-in account must match the profile owner. The script uses `gh api` to
-paginate owned repositories and retrieve their language byte counts. It excludes
-forks and aggregates all remaining repositories, including older project versions.
+The signed-in account must match the profile owner. The authenticated scan combines:
+
+- Owned repositories that are not forks.
+- Repositories in GitHub's commit and pull-request contribution index.
+- Accessible repositories with commits attributed to the user on their default branch,
+  including assignment forks omitted from GitHub's contribution index.
+
+Access alone does not qualify an external repository. Discovery is paginated and
+deduplicated case-insensitively before language totals are collected. This includes
+discoverable older coursework and contributions outside the user's own account.
+The totals measure each included project's whole language composition, including
+collaborators' code, rather than attributing individual lines to the profile owner.
+The unauthenticated public-only scan continues to cover owned non-fork repositories.
 
 Only totals are written to `assets/stats/profile-data.json`: language bytes,
 repository count, scope and dates. Repository names, visibility flags and

@@ -92,7 +92,7 @@
   <a href="https://github.com/PatrykBr?tab=repositories">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/stats/languages-dark.svg" />
-      <img src="assets/stats/languages-light.svg" alt="Language byte percentages across owned public and private repositories, excluding forks" width="350" />
+      <img src="assets/stats/languages-light.svg" alt="Language byte percentages across public and private projects owned or contributed to" width="350" />
     </picture>
   </a>
 </p>
